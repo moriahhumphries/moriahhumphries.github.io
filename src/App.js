@@ -5,7 +5,7 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import Connect from "./Components/Connect";
-
+import myphoto from "./imgs/profile-photo.png"
 import logo from "./imgs/moriah-icon.jpg";
 
 import {
@@ -22,20 +22,20 @@ export default function App() {
         <Router>
             <div>
                 <nav className="navbar center-align">
-                    <ul className="center-align">
+                    <ul className="center-align valign-wrapper">
                         <li className="hide-on-small-only"><Link to="/"><img src={logo} alt="logo" className="logo"/></Link></li>
 
                         <li>
-                            <Link to="/about">About</Link>
+                            <Link to="/about"><a style={{"fontSize": "30px"}}>About</a></Link>
                         </li>
                         <li>
-                            <Link to="/projects">Projects</Link>
+                            <Link to="/projects"><a style={{"fontSize": "30px"}}>Projects</a></Link>
                         </li>
                         <li>
-                            <Link to="/skills">Skills</Link>
+                            <Link to="/skills"><a style={{"fontSize": "30px"}}>Skills</a></Link>
                         </li>
                         <li>
-                            <Link to="/connect">Connect</Link>
+                            <Link to="/connect"><a style={{"fontSize": "30px"}}>Connect</a></Link>
                         </li>
                     </ul>
                 </nav>

@@ -5,6 +5,9 @@ function About() {
     return (
         <div className="about center-align container">
             <h1>About me</h1>
+            <div>
+
+            </div>
             <p className="text">Hello, my name is Moriah Humphries and I am a Dallas-Fort Worth based
                 Software Developer.
                 <br/>
