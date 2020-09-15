@@ -5,6 +5,9 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import Connect from "./Components/Connect";
+
+import logo from "./imgs/moriah-icon.jpg";
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -18,11 +21,10 @@ export default function App() {
 
         <Router>
             <div>
-                <nav className="navbar">
-                    <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
+                <nav className="navbar center-align">
+                    <ul className="center-align">
+                        <li className="hide-on-small-only"><Link to="/"><img src={logo} alt="logo" className="logo"/></Link></li>
+
                         <li>
                             <Link to="/about">About</Link>
                         </li>

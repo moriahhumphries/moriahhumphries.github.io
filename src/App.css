@@ -4,16 +4,22 @@
     box-sizing: border-box;
 
 }
+
 html {
     font-family: 'Emilys Candy', cursive;
+    width: 100%;
+
 }
 
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url("./imgs/yellow-wood.jpg");
+    background-image: url("./imgs/yellow-wood-min.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
 .App {
@@ -24,12 +30,17 @@ body {
     background-color: #070792;
     color: white;
     font-family: 'Abril Fatface', cursive;
-    font-size: 50px;
+    width: 100%!important;
+    height: 65px!important;
 
 }
 
+a {
+    padding: 5px!important;
+}
+
 .landing, h1 {
-    font-size: 150px;
+    font-size: 90px;
     font-family: 'Abril Fatface', cursive;
     color: #070792;
     text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
@@ -45,5 +56,18 @@ body {
     font-family: "Abril Fatface", cursive;
     color: #070792;
     font-size: 30px;
+}
+
+.logo {
+    background-color: white;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    margin: 1px 10px 0 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
 
 }
