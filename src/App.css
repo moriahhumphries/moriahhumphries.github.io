@@ -11,21 +11,20 @@ html {
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url("./imgs/gold-flowers-min.jpg");
+    background-image: url("./imgs/yellow-wood.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .App {
 
-
 }
 
-h1 {
-    color: #0c0c56;
-    font-family: 'Emilys Candy', cursive;
-    background-color: #eae8e0;
-    font-size: 150px;
-    margin: 0;
+.name {
+    font-size: 250px;
+    font-family: 'Abril Fatface', cursive;;
+    color: #070792;
+    text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
+    text-decoration: underline;
 
 }
