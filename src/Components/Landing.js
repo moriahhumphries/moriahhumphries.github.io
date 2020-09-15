@@ -1,9 +1,9 @@
 import React from "react";
 import './../App.css';
 
-const Landing = () => {
+function Landing() {
     return (
-        <div className="name center-align">
+        <div className="landing center-align container">
             <h1>Moriah</h1>
             <h1>Humphries.</h1>
         </div>

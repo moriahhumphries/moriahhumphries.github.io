@@ -20,11 +20,30 @@ body {
 
 }
 
-.name {
-    font-size: 250px;
-    font-family: 'Abril Fatface', cursive;;
+.navbar, nav {
+    background-color: #070792;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+
+}
+
+.landing, h1 {
+    font-size: 150px;
+    font-family: 'Abril Fatface', cursive;
     color: #070792;
     text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
-    text-decoration: underline;
+
+}
+
+.about {
+    background-color: #e7dabf8c;
+
+}
+
+.text {
+    font-family: "Abril Fatface", cursive;
+    color: #070792;
+    font-size: 30px;
 
 }
