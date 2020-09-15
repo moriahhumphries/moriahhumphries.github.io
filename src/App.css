@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-family: 'Emilys Candy', cursive;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./imgs/gold-flowers-min.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.App {
+
+
+}
+
+h1 {
+    color: #0c0c56;
+    font-family: 'Emilys Candy', cursive;
+    background-color: #eae8e0;
+    font-size: 150px;
+    margin: 0;
+
+}
