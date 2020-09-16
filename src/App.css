@@ -44,8 +44,16 @@ a, li {
     padding: 0!important;
 }
 
-.landing, h1 {
+h1 {
     font-size: 70px;
+    font-family: 'Abril Fatface', cursive;
+    color: #070792;
+    text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
+    display: block;
+}
+
+.landing {
+    font-size:200px!important;
     font-family: 'Abril Fatface', cursive;
     color: #070792;
     text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
@@ -54,7 +62,8 @@ a, li {
 }
 
 .about, .skills, .contact, .connect, .projects {
-    background-color: #e7dabf8c;
+    /*background-color: #e7dabf8c;*/
+    background-color: rgba(255, 255, 255, .5);
     display: block;
 
 }
@@ -70,7 +79,15 @@ a, li {
     border-radius: 50%;
     height: 55px;
     width: 55px;
-    margin: 20px 10px 0 10px;
+    margin: 25px 10px 0 10px;
+}
+
+.logo-large {
+    background-color: white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 25px 10px 0 10px;
 }
 
 .card-title {
@@ -90,7 +107,7 @@ a, li {
 }
 
 .outside-link {
-    color: #ffab40;
+    color: #4086ff;
 }
 
 .outside-link:visited {
@@ -98,9 +115,84 @@ a, li {
 }
 
 .outside-link:hover {
-    color: #2da5a5;
+    color: #e28819;
 }
 
 .outside-link:active {
     color: #fe7920;
 }
+
+@keyframes moveInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-70px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    /*80% {*/
+    /*    transform: translateY(-40px);*/
+    /*}*/
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+
+    /*50% {*/
+    /*    transform: translateX(-10px);*/
+    /*}*/
+
+    /*80% {*/
+    /*    transform: translateX(10px);*/
+    /*}*/
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(300px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.moriah {
+    animation-name: moveInTop;
+    animation-duration: 1.25s;
+    animation-timing-function: ease-out;
+    backface-visibility: hidden;
+}
+
+.humphries {
+    animation-name: moveInRight;
+    animation-duration: 1.25s;
+    animation-timing-function: ease-in;
+    backface-visibility: hidden;
+}
+
+.dev {
+    animation-name: moveInBottom;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    backface-visibility: hidden;
+}
+

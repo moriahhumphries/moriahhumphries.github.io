@@ -22,6 +22,7 @@ function Skills() {
                 <li><i className="fas fa-user-friends"></i>  Paired Programming</li>
                 <li><i className="fab fa-github-square"></i>  VCS with Git</li>
             </ul>
+        <br />
         </div>
     )
 }

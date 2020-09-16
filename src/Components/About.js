@@ -29,6 +29,7 @@ function About() {
                 for all. I believe in equitable access to the technology and training needed to assist workers
                 with new skills as automation and software technology evolves.
             </p>
+            <br />
         </div>
     );
 }
