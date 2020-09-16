@@ -1,14 +1,13 @@
 import React from "react";
 
 import './../App.css';
-import logo from "../imgs/moriah-icon.jpg";
-import hobbyist from "../imgs/hobbyistimage.png";
-import pokemon from "../imgs/pokemonimage.png";
-import continuity from "../imgs/continuity.png"
-import dadlister from "../imgs/dadlister.png";
-import movies from "../imgs/movies-app.png";
-import weather from "../imgs/weatherimage.png";
-import coffee from "../imgs/coffeeimage.png";
+import hobbyist from "../imgs/hobbyistimage-min.png";
+import pokemon from "../imgs/pokemonimage-min.png";
+import continuity from "../imgs/continuity-min.png"
+import dadlister from "../imgs/dadlister-min.png";
+import movies from "../imgs/movies-app-min.png";
+import weather from "../imgs/weatherimage-min.png";
+import coffee from "../imgs/coffeeimage-min.png";
 
 
 function Projects() {

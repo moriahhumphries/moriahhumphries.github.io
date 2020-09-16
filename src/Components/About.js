@@ -1,6 +1,6 @@
 import React from "react";
 import './../App.css';
-import myphoto from "../imgs/profile-photo.png";
+import myphoto from "../imgs/profile-photo-min.png";
 import logo from "../imgs/moriah-icon.jpg";
 
 function About() {
