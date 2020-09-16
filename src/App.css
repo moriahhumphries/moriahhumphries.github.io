@@ -22,8 +22,9 @@ body {
 
 }
 
-.App {
-
+.main {
+    display: block;
+    padding-top: 65px;
 }
 
 .navbar, nav {
@@ -32,23 +33,29 @@ body {
     font-family: 'Abril Fatface', cursive;
     width: 100%!important;
     height: 65px!important;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: block;
 
 }
 
 a, li {
-    padding: 0px!important;
+    padding: 0!important;
 }
 
 .landing, h1 {
-    font-size: 90px;
+    font-size: 75px;
     font-family: 'Abril Fatface', cursive;
     color: #070792;
     text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
+    display: block;
 
 }
 
-.about, .skills, .contact {
+.about, .skills, .contact, .connect, .projects {
     background-color: #e7dabf8c;
+    display: block;
 
 }
 
@@ -64,6 +71,11 @@ a, li {
     height: 55px;
     width: 55px;
     margin: 20px 10px 0 10px;
+}
+
+.test-logo {
+
+    width: 100px;
 }
 
 .myphoto {

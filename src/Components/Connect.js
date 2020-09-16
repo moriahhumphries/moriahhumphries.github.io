@@ -5,7 +5,7 @@ function Connect() {
     return (
         <div className="connect center-align container">
             <h1>Connect</h1>
-            <ul className="contact center-align text">
+            <ul className="center-align text">
                 <li><i className="fab fa-linkedin mr-2 mt-5"></i><a
                     href="https://www.linkedin.com/in/moriah-humphries-126621b3/"
                     target="_blank">LinkedIn</a></li>

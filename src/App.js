@@ -20,22 +20,22 @@ export default function App() {
     return (
 
         <Router>
-            <div>
+            <div className="main">
                 <nav className="navbar center-align">
                     <ul className="center-align valign-wrapper navflex">
                         <li className="hide-on-small-only"><Link to="/"><img src={logo} alt="logo" className="logo"/></Link></li>
 
                         <li>
-                            <Link to="/about"><a style={{"fontSize": "30px"}}>About</a></Link>
+                            <Link to="/about"><a style={{"fontSize": "20px"}}>About</a></Link>
                         </li>
                         <li>
-                            <Link to="/projects"><a style={{"fontSize": "30px"}}>Projects</a></Link>
+                            <Link to="/projects"><a style={{"fontSize": "20px"}}>Projects</a></Link>
                         </li>
                         <li>
-                            <Link to="/skills"><a style={{"fontSize": "30px"}}>Skills</a></Link>
+                            <Link to="/skills"><a style={{"fontSize": "20px"}}>Skills</a></Link>
                         </li>
                         <li>
-                            <Link to="/connect"><a style={{"fontSize": "30px"}}>Connect</a></Link>
+                            <Link to="/connect"><a style={{"fontSize": "20px"}}>Connect</a></Link>
                         </li>
                     </ul>
                 </nav>
