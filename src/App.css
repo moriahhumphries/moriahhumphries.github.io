@@ -47,7 +47,7 @@ a, li {
 
 }
 
-.about {
+.about, .skills, .contact {
     background-color: #e7dabf8c;
 
 }
@@ -64,10 +64,14 @@ a, li {
     height: 55px;
     width: 55px;
     margin: 20px 10px 0 10px;
-
 }
 
-ul {
+.myphoto {
+    height: 300px;
+    width: auto;
+}
+
+.navflex {
     display: flex;
     justify-content: space-around;
     height: 65px!important;

@@ -1,12 +1,14 @@
 import React from "react";
 import './../App.css';
+import myphoto from "../imgs/profile-photo.png";
+import logo from "../imgs/moriah-icon.jpg";
 
 function About() {
     return (
         <div className="about center-align container">
             <h1>About me</h1>
             <div>
-
+                <img src={myphoto} alt="myphoto" className="myphoto"/>
             </div>
             <p className="text">Hello, my name is Moriah Humphries and I am a Dallas-Fort Worth based
                 Software Developer.

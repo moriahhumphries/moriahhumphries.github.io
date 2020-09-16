@@ -22,7 +22,7 @@ export default function App() {
         <Router>
             <div>
                 <nav className="navbar center-align">
-                    <ul className="center-align valign-wrapper">
+                    <ul className="center-align valign-wrapper navflex">
                         <li className="hide-on-small-only"><Link to="/"><img src={logo} alt="logo" className="logo"/></Link></li>
 
                         <li>
