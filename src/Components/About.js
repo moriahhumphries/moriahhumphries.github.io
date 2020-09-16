@@ -15,7 +15,9 @@ function About() {
                 <br/>
                 <br/>
                 I am currently attending a 20 week career accelerator program at <a href="https://codeup.com/"
-                                                                                    target="_blank">Codeup
+                                                                                    target="_blank"
+                                                                                    className="outside-link"
+                >Codeup
                     Dallas.</a> I am currently seeking full time employment as a Software Developer.
                 <br/>
                 <br/>

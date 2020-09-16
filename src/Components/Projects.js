@@ -23,13 +23,16 @@ function Projects() {
                     <div className="card">
                         <div className="card-image">
                             <img src={hobbyist} alt="hobbyist"/>
-                            <span className="card-title">Hobbyist</span>
                         </div>
                         <div className="card-content">
-                            <p>Hobbyist</p>
+                            <span className="card-title">Hobbyist</span>
+                            <p>A full stack social-platform application that allows users to discover new hobbies and keep track of their learning progress using the in-app hobby tracker feature. Utilizes Materialize, JS, jQuery, Java, MySQL, Spring Boot, and Thymeleaf.
+                            </p>
                         </div>
                         <div className="card-action">
-                            <a href="#">This is a link</a>
+                            <a href="https://hobbyist-app.xyz/" target="_blank">View Live</a>
+                            <br />
+                            <a href="https://github.com/Hobbyist-Capstone/Hobbyist" target="_blank">View GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -42,13 +45,15 @@ function Projects() {
                     <div className="card">
                         <div className="card-image">
                             <img src={pokemon} alt="pokemon"/>
-                            <span className="card-title">Pokemon</span>
                         </div>
                         <div className="card-content">
-                            <p>Pokemon</p>
+                            <span className="card-title">Pokemon</span>
+                            <p>This project was created in React, and utilizes the <a href="https://pokeapi.co/docs/v2" target="_blank">PokeAPI.</a> Users can search for Pokemon by name, and save their favorites to their local storage for later viewing.</p>
                         </div>
                         <div className="card-action">
-                            <a href="#">This is a link</a>
+                            <a href="https://sheltered-stream-83795.herokuapp.com/" target="_blank">View Live</a>
+                            <br />
+                            <a href="https://github.com/moriahhumphries/pokemon-app" target="_blank">View GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -59,13 +64,16 @@ function Projects() {
                     <div className="card">
                         <div className="card-image">
                             <img src={continuity} alt="continuity"/>
-                            <span className="card-title">Continuity</span>
                         </div>
                         <div className="card-content">
-                            <p>Continuity</p>
+                            <span className="card-title">Continuity</span>
+                            <p>A full stack blog application that was created using Spring Boot, Thymeleaf, MySQL, and Bootstrap. The application allows users to register,  create, edit and delete their posts.
+                            </p>
                         </div>
                         <div className="card-action">
-                            <a href="#">This is a link</a>
+                            <a href="https://moriah-humphries.com/" target="_blank">View Live</a>
+                            <br />
+                            <a href="https://github.com/moriahhumphries/Spring" target="_blank">View GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -78,13 +86,14 @@ function Projects() {
                     <div className="card">
                         <div className="card-image">
                             <img src={dadlister} alt="dadlister"/>
-                            <span className="card-title">DadListers</span>
                         </div>
                         <div className="card-content">
-                            <p>DadLister</p>
+                            <span className="card-title">DadLister</span>
+                            <p>This group project was created from the AdLister template in Codeup’s curriculum. The original product is designed to simulate an ad posting website. DadLister was created to allow users to post questions that are best answered by a Dad figure in categories such as: BBQ Banter, Motor Moments, and Sports Stuff. This project uses JSPs, Servlets, JDBC, and MySQL.
+                            </p>
                         </div>
                         <div className="card-action">
-                            <a href="#">This is a link</a>
+                            <a href="https://github.com/The-Tech-Warriors/DadLister" target="_blank">View GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -97,13 +106,14 @@ function Projects() {
                     <div className="card">
                         <div className="card-image">
                             <img src={movies} alt="logo"/>
-                            <span className="card-title">Movies</span>
                         </div>
                         <div className="card-content">
-                            <p>Movies</p>
+                            <span className="card-title">Movie App</span>
+                            <p>A pair programming project that uses Javascript and a JavaScript JSON server to simulate an API. The user can add, edit, and delete the movies they submit.
+                            </p>
                         </div>
                         <div className="card-action">
-                            <a href="#">This is a link</a>
+                            <a href="https://github.com/team-hailstorm/movies-application" target="_blank">View GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -116,13 +126,14 @@ function Projects() {
                     <div className="card">
                         <div className="card-image">
                             <img src={weather} alt="weather"/>
-                            <span className="card-title">Weather</span>
                         </div>
                         <div className="card-content">
-                            <p>Weather</p>
+                            <span className="card-title">Weather App</span>
+                            <p>This project uses Javascript and two APIs: Mapbox and Open WeatherMap. The user's search will show new city and weather, and create a pin. The user can drag and drop the pin to update weather.
+                            </p>
                         </div>
                         <div className="card-action">
-                            <a href="#">This is a link</a>
+                            <a href="https://github.com/moriahhumphries/weather-map" target="_blank">View GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -135,20 +146,19 @@ function Projects() {
                     <div className="card">
                         <div className="card-image">
                             <img src={coffee} alt="logo"/>
-                            <span className="card-title">Coffee Project</span>
+
                         </div>
                         <div className="card-content">
-                            <p>Coffee Project.</p>
+                            <span className="card-title">Coffee App</span>
+                            <p>This pair-programmed application uses Javascript and allows for the user to select their desired roast of coffee, and search by name.
+                            </p>
                         </div>
                         <div className="card-action">
-                            <a href="#">This is a link</a>
+                            <a href="https://github.com/Moriah-and-DeLayne/coffee-project" target="_blank">View GitHub</a>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     )
 }

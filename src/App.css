@@ -45,7 +45,7 @@ a, li {
 }
 
 .landing, h1 {
-    font-size: 75px;
+    font-size: 70px;
     font-family: 'Abril Fatface', cursive;
     color: #070792;
     text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
@@ -62,7 +62,7 @@ a, li {
 .text {
     font-family: "Abril Fatface", cursive;
     color: #070792;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .logo {
@@ -73,9 +73,9 @@ a, li {
     margin: 20px 10px 0 10px;
 }
 
-.test-logo {
+.card-title {
+    font-size: 35px!important;
 
-    width: 100px;
 }
 
 .myphoto {
@@ -87,6 +87,20 @@ a, li {
     display: flex;
     justify-content: space-around;
     height: 65px!important;
+}
 
+.outside-link {
+    color: #ffab40;
+}
 
+.outside-link:visited {
+    color: #8e3499;
+}
+
+.outside-link:hover {
+    color: #2da5a5;
+}
+
+.outside-link:active {
+    color: #fe7920;
 }
