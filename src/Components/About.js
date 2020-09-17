@@ -14,11 +14,11 @@ function About() {
                 Software Developer.
                 <br/>
                 <br/>
-                I am currently attending a 20 week career accelerator program at <a href="https://codeup.com/"
+                I attended a 20 week career accelerator program at <a href="https://codeup.com/"
                                                                                     target="_blank"
                                                                                     className="outside-link"
                 >Codeup
-                    Dallas.</a> I am currently seeking full time employment as a Software Developer.
+                    Dallas</a>, and am currently seeking full time employment as a Software Developer.
                 <br/>
                 <br/>
                 I am an avid knowledge collector, seeking to expand the ways humans adapt to and interface with

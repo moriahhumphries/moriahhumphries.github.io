@@ -10,8 +10,7 @@ function Connect() {
                     className="outside-link"
                     href="mailto:moriah.humphries@gmail.com?Subject=Let's%20connect!"
                     target="_top"
-                    style={{"fontSize": "20px"}}
-                > moriah.humphries@gmail.com</a>
+                > Email</a>
                 </li>
                 <br />
                 <li><i className="fab fa-linkedin"></i><a

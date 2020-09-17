@@ -25,7 +25,7 @@ function Projects() {
                         </div>
                         <div className="card-content">
                             <span className="card-title">Hobbyist</span>
-                            <p>A full stack social-platform application that allows users to discover new hobbies and keep track of their learning progress using the in-app hobby tracker feature. Utilizes Materialize, JS, jQuery, Java, MySQL, Spring Boot, and Thymeleaf.
+                            <p>A full stack social application that allows users to discover new hobbies and keep track of their learning progress using the in-app hobby tracker feature. Utilizes Materialize, JS, jQuery, Java, MySQL, Spring Boot, and Thymeleaf.
                             </p>
                         </div>
                         <div className="card-action">
@@ -66,7 +66,7 @@ function Projects() {
                         </div>
                         <div className="card-content">
                             <span className="card-title">Continuity</span>
-                            <p>A full stack blog application that was created using Spring Boot, Thymeleaf, MySQL, and Bootstrap. The application allows users to register,  create, edit and delete their posts.
+                            <p>A full stack blog application that was created using Spring Boot, Thymeleaf, MySQL, and Bootstrap. The application allows users to register, create, edit and delete their posts.
                             </p>
                         </div>
                         <div className="card-action">
@@ -88,7 +88,7 @@ function Projects() {
                         </div>
                         <div className="card-content">
                             <span className="card-title">DadLister</span>
-                            <p>This group project was created from the AdLister template in Codeup’s curriculum. The original product is designed to simulate an ad posting website. DadLister was created to allow users to post questions that are best answered by a Dad figure in categories such as: BBQ Banter, Motor Moments, and Sports Stuff. This project uses JSPs, Servlets, JDBC, and MySQL.
+                            <p>DadLister is a group project created to allow users to post questions that are best answered by a Dad figure in categories such as: BBQ Banter, Motor Moments, and Sports Stuff. This project uses JSPs, Servlets, JDBC, and MySQL.
                             </p>
                         </div>
                         <div className="card-action">
