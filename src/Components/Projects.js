@@ -8,6 +8,7 @@ import dadlister from "../imgs/dadlister-min.png";
 import movies from "../imgs/movies-app-min.png";
 import weather from "../imgs/weatherimage-min.png";
 import coffee from "../imgs/coffeeimage-min.png";
+import personalsite from "../imgs/personal-site.png";
 
 
 function Projects() {
@@ -15,6 +16,25 @@ function Projects() {
     return (
         <div className="projects text center-align container text">
             <h1>Projects</h1>
+
+            {/*Personal Site*/}
+            <div className="row">
+                <div className="col s12 m12 l12">
+                    <div className="card">
+                        <div className="card-image">
+                            <img src={personalsite} alt="personal site"/>
+                        </div>
+                        <div className="card-content">
+                            <span className="card-title">Personal Site</span>
+                            <p>This personal website was built with React, and utilizes React Router.
+                            </p>
+                        </div>
+                        <div className="card-action">
+                            <a href="https://github.com/moriahhumphries/moriahhumphries.github.io" target="_blank">View GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             {/*Hobbyist */}
             <div className="row">

@@ -5,7 +5,6 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import Connect from "./Components/Connect";
-import myphoto from "./imgs/profile-photo.png"
 import logo from "./imgs/moriah-icon.jpg";
 
 import {
