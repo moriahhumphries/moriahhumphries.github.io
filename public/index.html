@@ -12,6 +12,7 @@
 
     <!--    Favicon-->
     <link rel="shortcut icon" href="./moriah-icon.jpg" type="image/x-icon"/>
+    <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
 
     <title>Moriah Humphries' Website.</title>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
@@ -19,6 +20,20 @@
 <body>
 <noscript>You need to enable JavaScript to run this app.</noscript>
 <div id="root"></div>
+<script>
+    const pressed = [];
+    const secretCode = [38, 38,40,40,37,39,37,39,66,65,13];
 
+    window.addEventListener('keyup', (e) => {
+          console.log(e.key);
+          pressed.push(e.key);
+          pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+
+          if (pressed.join('').includes(secretCode)) {
+            console.log("yay!");
+            cornify_add();
+          }
+        });
+  </script>
 </body>
 </html>
